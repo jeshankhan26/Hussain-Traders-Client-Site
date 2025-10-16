@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "SafeFlame LPG Cylinder",
+    "image": "https://i.ibb.co.com/TxWBf9FR/download-1.jpg",
+    "price": 1200,
+    "safetyRate": "9.8/10",
+    "capacity": "12 kg",
+    "status": "New Arrival"
+  },
+  {
+    "id": 2,
+    "name": "BlueEnergy Gas Cylinder",
+    "image": "https://i.ibb.co.com/G4YdFP32/download-2.jpg",
+    "price": 1350,
+    "safetyRate": "9.7/10",
+    "capacity": "14 kg",
+    "status": "Best Seller"
+  },
+  {
+    "id": 3,
+    "name": "EcoCook Smart Cylinder",
+    "image": "https://i.ibb.co.com/yncJ5JJN/download-3.jpg",
+    "price": 1500,
+    "safetyRate": "9.9/10",
+    "capacity": "15 kg",
+    "status": "Premium"
+  },
+  {
+    "id": 3,
+    "name": "EcoCook Smart Cylinder",
+    "image": "https://i.ibb.co.com/JjkGfcrj/Untitled.jpg",
+    "price": 1500,
+    "safetyRate": "9.9/10",
+    "capacity": "15 kg",
+    "status": "Premium"
+  },
+  {
+    "id": 2,
+    "name": "BlueEnergy Gas Cylinder",
+    "image": "https://i.ibb.co.com/G4YdFP32/download-2.jpg",
+    "price": 1350,
+    "safetyRate": "9.7/10",
+    "capacity": "14 kg",
+    "status": "Best Seller"
+  },
+  {
+    "id": 3,
+    "name": "EcoCook Smart Cylinder",
+    "image": "https://i.ibb.co.com/JjkGfcrj/Untitled.jpg",
+    "price": 1500,
+    "safetyRate": "9.9/10",
+    "capacity": "15 kg",
+    "status": "Premium"
+  },
+  {
+    "id": 2,
+    "name": "BlueEnergy Gas Cylinder",
+    "image": "https://i.ibb.co.com/G4YdFP32/download-2.jpg",
+    "price": 1350,
+    "safetyRate": "9.7/10",
+    "capacity": "14 kg",
+    "status": "Best Seller"
+  },
+  {
+    "id": 3,
+    "name": "EcoCook Smart Cylinder",
+    "image": "https://i.ibb.co.com/JjkGfcrj/Untitled.jpg",
+    "price": 1500,
+    "safetyRate": "9.9/10",
+    "capacity": "15 kg",
+    "status": "Premium"
+  },
+  {
+    "id": 2,
+    "name": "BlueEnergy Gas Cylinder",
+    "image": "https://i.ibb.co.com/G4YdFP32/download-2.jpg",
+    "price": 1350,
+    "safetyRate": "9.7/10",
+    "capacity": "14 kg",
+    "status": "Best Seller"
+  }
+]

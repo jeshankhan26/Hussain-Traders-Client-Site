@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 // src/components/Navbar.jsx
 export default function Navbar() {
   return (
@@ -16,29 +18,24 @@ export default function Navbar() {
       <div className="hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-semibold text-[#111827] space-x-2">
           <li>
-            <a className="px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#1E3A8A] hover:bg-[#F9FAFB]">
+            <NavLink to="/" className="px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#1E3A8A] hover:bg-[#F9FAFB]">
               Home
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a className="px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#16A34A] hover:bg-[#F9FAFB]">
-              Categories
-            </a>
-          </li>
-          <li>
-            <a className="px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#F97316] hover:bg-[#F9FAFB]">
+            <NavLink to="/cylinder" className="px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#F97316] hover:bg-[#F9FAFB]">
               Cylinders
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a className="px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#F97316] hover:bg-[#F9FAFB]">
+            <NavLink to="/safety" className="px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#F97316] hover:bg-[#F9FAFB]">
               Safety
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a className="px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#1E3A8A] hover:bg-[#F9FAFB]">
+            <NavLink to="/contact" className="px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#1E3A8A] hover:bg-[#F9FAFB]">
               Contact
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>
@@ -64,19 +61,16 @@ export default function Navbar() {
           className="menu menu-sm dropdown-content mt-3 p-3 shadow-lg bg-white rounded-xl w-56 font-semibold text-[#111827] space-y-1"
         >
           <li>
-            <a className="hover:text-[#1E3A8A] transition-colors">Home</a>
+            <NavLink to="/" className="hover:text-[#1E3A8A] transition-colors">Home</NavLink>
           </li>
           <li>
-            <a className="hover:text-[#16A34A] transition-colors">Categories</a>
+            <NavLink to="/cylinder" className="hover:text-[#F97316] transition-colors">Cylinders</NavLink>
           </li>
           <li>
-            <a className="hover:text-[#F97316] transition-colors">Cylinders</a>
+            <NavLink to="/safety" className="hover:text-[#F97316] transition-colors">Safety</NavLink>
           </li>
           <li>
-            <a className="hover:text-[#F97316] transition-colors">Safety</a>
-          </li>
-          <li>
-            <a className="hover:text-[#1E3A8A] transition-colors">Contact</a>
+            <NavLink to="/contact" className="hover:text-[#1E3A8A] transition-colors">Contact</NavLink>
           </li>
           <li>
             <button className="btn bg-[#16A34A] hover:bg-green-700 text-white font-bold rounded-full border-none mt-2">
